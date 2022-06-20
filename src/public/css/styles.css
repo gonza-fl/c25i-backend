@@ -1,0 +1,11 @@
+body{
+  background-color: #000;
+  color: aliceblue;
+}
+
+textarea {
+  min-width: 20em;
+  min-height: 15em !important;
+  max-width: 20em;
+  max-height: 15em;
+}
