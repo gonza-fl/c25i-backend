@@ -16,7 +16,7 @@ const getUsers = (_req, res) => {
       },
       {
         name: 'Fede',
-        role: 'Nadia',
+        role: 'alumno',
       },
       {
         name: 'Nadia',
@@ -43,9 +43,9 @@ const getUsers = (_req, res) => {
 };
 
 const getUserById = (req, res) => {
-  const { id } = req;
+  const { id } = req.params;
   return res.json({
-    message: 'Users updated successfully',
+    message: 'User found',
     id,
   });
 }
