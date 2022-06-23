@@ -23,6 +23,7 @@ app.use(router);
 app.use(express.static(join(__dirname, "public/css")));
 
 app.listen(PORT, async () => {
+  //await db();
   console.log(`
 ====================================
         Listen on port ${PORT}

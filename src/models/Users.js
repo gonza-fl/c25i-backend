@@ -16,3 +16,5 @@ const User = Schema({
     unique: true
   },
 })
+
+export default model('users', User);
